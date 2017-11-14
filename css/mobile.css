@@ -3,7 +3,7 @@
 
 	/* different CSS goes here */
 	#header img {
-		display: none;
+		display: none !important;
 	}
 
 }
