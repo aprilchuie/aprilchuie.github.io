@@ -4,4 +4,8 @@
 	#header img {
 		width: 300px;
 	}
+
+	.top-nav a {
+		display: inline-block;
+	}
 }

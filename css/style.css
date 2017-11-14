@@ -55,6 +55,10 @@ h1 {
 	border: 0;
 	margin: 0;
 }
+.container {
+	background-color: #eee;
+	padding: 25px;
+}
 #about {
 	background-color: #eee;
 	padding: 25px;
