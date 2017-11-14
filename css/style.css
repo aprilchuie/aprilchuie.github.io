@@ -87,6 +87,7 @@ h1 {
 	border: none;
 	outline: none;
 	color: #494949;
+	background-color: #fff;
 }
 #scrollTop:hover {
 	color: #eee;
