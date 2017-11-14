@@ -18,15 +18,15 @@
 	.top-nav a:not(:first-child) {
 		display: none;
 	}
-	.top-nav.responsive {
+	.top-nav .responsive {
 		position: relative;
 	}
-	.top-nav.responsive.icon {
+	.top-nav .responsive.icon {
 		position: absolute;
 		top: 0;
 		right: 0;
 	}
-	.top-nav.responsive a {
+	.top-nav .responsive a {
 		float: none;
 		display: block;
 		text-align: left;
