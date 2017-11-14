@@ -23,6 +23,11 @@
 	        x.className = "top-nav";
 	    }
 	}
+
+	function backToTop() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+	}
 	</script>
 </head>
 
@@ -64,6 +69,7 @@
 
 <div id="footer">
 	<p>&copy; April Huie 2017</p>
+	<p><button onclick="backToTop()" id="scrollTop" title="Back to Top">Back to Top</button></p>
 </div>
 
 </body>

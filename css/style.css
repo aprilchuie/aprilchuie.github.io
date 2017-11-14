@@ -81,3 +81,12 @@ h1 {
 	margin: 0;
 	background-color: #fff;
 }
+#scrollTop {
+	display: none;
+	border: none;
+	outline: none;
+	color: #494949;
+}
+#scrollTop:hover {
+	color: #eee;
+}
