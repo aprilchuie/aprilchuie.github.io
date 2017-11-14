@@ -32,7 +32,7 @@ h1 {
 }
 #header img {
 	object-fit: scale-down;
-	vertical-align: center;
+	vertical-align: middle;
 	padding: 25px;
 }
 
