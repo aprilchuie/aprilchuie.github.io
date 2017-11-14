@@ -1,6 +1,9 @@
 /* For mobile and smartphone devices */
 @media only screen and (max-width: 480px) {
 
+	#header {
+		margin: 0;
+	}
 	#header img {
 		display: none!important;
 	}
@@ -12,8 +15,8 @@
 		float: left;
 	}
 	.top-nav .icon {
-		float: right;
 		display: block;
+		float: right;
 	}
 	.top-nav a:not(:first-child) {
 		display: none;
