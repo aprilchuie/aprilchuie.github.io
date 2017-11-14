@@ -12,7 +12,7 @@
 	.top-nav a {
 		float: right;
 	}
-	.top-nav a.main {
+	.top-nav a:first-child {
 		float: left;
 	}
 

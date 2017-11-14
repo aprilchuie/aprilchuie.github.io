@@ -8,10 +8,10 @@
 	.top-nav {
 		margin: 25px;
 	}
-	.top-nav a.main {
+	.top-nav a:first-child {
 		float: left;
 	}
-	.top-nav .icon {
+	.top-nav.icon {
 		float: right;
 		display: block;
 	}
@@ -21,7 +21,7 @@
 	.top-nav.responsive {
 		position: relative;
 	}
-	.top-nav.responsive .icon {
+	.top-nav.responsive.icon {
 		position: absolute;
 		top: 0;
 		right: 0;

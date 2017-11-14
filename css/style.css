@@ -51,7 +51,7 @@ h1 {
 .top-nav a:hover {
 	color: #777777;
 }
-.top-nav a.main {
+.top-nav a:first-child {
 	font-size: 18pt;
 	float: none;
 }
