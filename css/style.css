@@ -34,12 +34,14 @@ h1 {
 	text-transform: uppercase;
 	display: block;
 	padding: 10px 10px;
+	float: left;
 }
 .top-nav a:hover {
 	color: #777777;
 }
 .top-nav a.main {
 	font-size: 18pt;
+	float: none;
 }
 
 #content {
