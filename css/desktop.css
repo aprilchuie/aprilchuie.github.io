@@ -11,4 +11,9 @@
 	.top-nav a.main {
 		display: block;
 	}
+
+	#content {
+		margin-left: 25%;
+		margin-right: 25%;
+	}
 }

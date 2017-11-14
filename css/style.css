@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	color: #494949;
 	font-size: 12 pt;
@@ -20,9 +24,9 @@ h1 {
 	padding-top: 25px;
 	border: 0;
 	background-color: #FFFFFF;
-	-moz-box-shadow: 10px 10px 10px #494949;
-	-webkit-box-shadow: 10px 10px 10px #494949;
-	box-shadow: 10px 10px 10px #494949;
+	-moz-box-shadow: 10px 10px 5px #494949;
+	-webkit-box-shadow: 10px 10px 5px #494949;
+	box-shadow: 10px 10px 5px #494949;
 
 }
 #header img {
