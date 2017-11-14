@@ -8,4 +8,7 @@
 	.top-nav a {
 		display: inline-block;
 	}
+	.top-nav a.main {
+		display: block;
+	}
 }
