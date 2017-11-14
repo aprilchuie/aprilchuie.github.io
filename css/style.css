@@ -18,6 +18,9 @@ h1 {
 	box-shadow: 0px 5px 5px #777777;
 
 }
+#header img {
+	object-fit: contain;
+}
 
 .top-nav a{
 	color: #000000;

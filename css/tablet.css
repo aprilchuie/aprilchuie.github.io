@@ -2,6 +2,8 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
 		/* different css goes here */
-		
+		#header img {
+			width: 15%;
+		}
 
 	}
