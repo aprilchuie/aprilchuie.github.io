@@ -26,6 +26,10 @@ h1 {
 }
 
 .top-nav {
+	overflow: hidden;
+}
+
+.top-nav a{
 	color: #000000;
 	text-transform: uppercase;
 }
