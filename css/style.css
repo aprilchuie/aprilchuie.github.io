@@ -30,7 +30,10 @@ h1 {
 
 .top-nav a{
 	color: #000000;
+	font-size: 14pt;
 	text-transform: uppercase;
+	display: block;
+	padding: 10px 10px;
 }
 .top-nav a:hover {
 	color: #777777;
