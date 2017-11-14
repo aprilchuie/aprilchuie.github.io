@@ -16,7 +16,7 @@
 	.top-nav a {
 		float: right;
 	}
-	.top-nav a:first-child {
+	.top-nav a.main {
 		float: left;
 	}
 

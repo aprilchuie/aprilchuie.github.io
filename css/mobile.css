@@ -8,7 +8,7 @@
 	.top-nav {
 		margin: 25px;
 	}
-	.top-nav a:first-child {
+	.top-nav a.main {
 		float: left;
 	}
 	.top-nav.icon {
