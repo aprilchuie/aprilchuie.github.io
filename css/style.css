@@ -8,3 +8,19 @@ body {
 h1 {
 	color: #111836;
 }
+
+#header {
+	width: 100%;
+	background-color: #FFFFFF;
+	-moz-box-shadow: 0 0 5px 0 #777777;
+	-webkit-box-shadow: 0 0 5px 0 #777777;
+	box-shadow: 0 0 5px 0 #777777;
+}
+
+.top-nav a{
+	color: #000000;
+	text-transform: uppercase;
+}
+.top-nav a:hover {
+	color: #777777;
+}
