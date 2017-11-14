@@ -32,7 +32,9 @@ h1 {
 .top-nav {
 	overflow: hidden;
 }
-
+.top-nav .icon {
+	display: none;
+}
 .top-nav a{
 	color: #000000;
 	font-size: 14pt;
