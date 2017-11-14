@@ -35,6 +35,9 @@ h1 {
 .top-nav a:hover {
 	color: #777777;
 }
+.top-nav a.main {
+	font-size: 1.5em;
+}
 
 #content {
 	position: relative;
