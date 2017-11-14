@@ -4,6 +4,7 @@
 		/* different css goes here */
 		#header img {
 			width: 15%;
+			float: left;
 		}
 
 	}
