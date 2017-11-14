@@ -42,3 +42,12 @@ h1 {
 	width: 100%;
 	margin: 25px;
 }
+#about {
+	background-color: #eee;
+}
+#work {
+	background-color: #efefef;
+}
+#contact {
+	background-color: #eee;
+}
