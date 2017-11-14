@@ -3,6 +3,7 @@
 
 	#header {
 		margin: 0;
+		vertical-align: center;
 	}
 	#header img {
 		display: none!important;
