@@ -84,6 +84,7 @@ h1 {
 	background-color: #fff;
 }
 #scrollTop {
+	display: block;
 	border: none;
 	outline: none;
 	color: #494949;
