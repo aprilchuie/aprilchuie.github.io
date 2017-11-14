@@ -18,6 +18,7 @@ h1 {
 }
 
 #header {
+	text-decoration: none;
 	width: 100%;
 	margin: 0;
 	margin-bottom: 5px;
