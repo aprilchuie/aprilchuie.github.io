@@ -11,7 +11,7 @@
 	.top-nav a.main {
 		float: left;
 	}
-	.top-nav.icon {
+	.top-nav .icon {
 		float: right;
 		display: block;
 	}

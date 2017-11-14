@@ -37,7 +37,7 @@ h1 {
 .top-nav {
 	overflow: hidden;
 }
-.top-nav.icon {
+.top-nav .icon {
 	display: none;
 }
 .top-nav a{
