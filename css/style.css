@@ -70,5 +70,5 @@ h1 {
 	padding: 25px;
 }
 .container:nth-of-type(even) {
-	background-color: #ddd;
+	background-color: #ccc;
 }
