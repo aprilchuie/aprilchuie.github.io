@@ -1,5 +1,9 @@
 body, p {
-	font-size: 10em;
-	font-family: Arial;
 	color: #494949;
+	font-size: 12 pt;
+	font-family: Arial;
+}
+
+h1 {
+	color: #111836;
 }
