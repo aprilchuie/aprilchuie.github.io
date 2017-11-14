@@ -38,7 +38,7 @@ h1 {
 	text-decoration: none;
 	display: block;
 	padding: 10px 10px;
-	float: left;
+	float: none;
 }
 .top-nav a:hover {
 	color: #777777;
