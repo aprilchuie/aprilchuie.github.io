@@ -30,7 +30,7 @@ h1 {
 
 }
 #header img {
-	object-fit: contain;
+	object-fit: scale-down;
 }
 
 .top-nav {
