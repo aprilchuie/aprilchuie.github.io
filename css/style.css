@@ -45,14 +45,17 @@ h1 {
 #content {
 	position: relative;
 	width: 100%;
-	margin: 25px;
+	margin: 0px 25px;
 }
 #about {
 	background-color: #eee;
+	padding: 25px 25px 25px 25px;
 }
 #work {
-	background-color: #efefef;
+	background-color: #ddd;
+	padding: 25px 25px 25px 25px;
 }
 #contact {
 	background-color: #eee;
+	padding: 25px 25px 25px 25px;
 }
