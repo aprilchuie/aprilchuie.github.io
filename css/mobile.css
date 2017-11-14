@@ -5,6 +5,9 @@
 		display: none!important;
 	}
 
+	.top-nav {
+		margin: 25px;
+	}
 	.top-nav a.main {
 		float: left;
 	}

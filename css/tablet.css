@@ -6,6 +6,9 @@
 		float: left;
 	}
 
+	.top-nav {
+		margin: 25px;
+	}
 	.top-nav a {
 		float: right;
 	}
