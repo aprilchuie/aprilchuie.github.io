@@ -9,5 +9,8 @@
 	.top-nav a {
 		float: right;
 	}
+	.top-nav a.main {
+		float: left;
+	}
 
 }

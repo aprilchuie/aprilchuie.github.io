@@ -5,4 +5,8 @@
 		display: none!important;
 	}
 
+	.top-nav a.main {
+		float: left;
+	}
+
 }
