@@ -25,7 +25,7 @@ h2 {
 }
 
 hr {
-	width: 50%;
+	width: 75%;
 	color: #ddd;
 }
 
@@ -46,6 +46,7 @@ hr {
 	object-fit: scale-down;
 	vertical-align: text-top;
 	padding: 25px;
+
 }
 
 .top-nav {
@@ -100,7 +101,9 @@ hr {
 .scrollTop {
 	display: inline-block;
 	float: none;
-	border: 10px solid, go;
+	border: 0;
+	margin: 0;
+	padding: 10px;
 	outline: none;
 	font-family: Arial, Helvetica;
 	font-size: 12 pt;
