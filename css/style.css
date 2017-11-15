@@ -90,6 +90,7 @@ h1 {
 	outline: none;
 	color: #494949;
 	background-color: #fff;
+	text-align: center;
 }
 #scrollTop:hover {
 	color: #eee;
