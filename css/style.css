@@ -27,6 +27,7 @@ h2 {
 hr {
 	width: 75%;
 	color: #ddd;
+	border: none;
 }
 
 #header {
