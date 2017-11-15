@@ -99,7 +99,7 @@ hr {
 	background-color: #fff;
 }
 .scrollTop {
-	display: inline-block;
+	display: block;
 	float: none;
 	border: 0;
 	margin: 0;
