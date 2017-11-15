@@ -1,5 +1,5 @@
 /* For tablet devices */
-@media only screen and (min-width: 480px) and (max-width: 1024px) {
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
 
 	#header {
 		height: 150px;
