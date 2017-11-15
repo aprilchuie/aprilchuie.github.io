@@ -16,7 +16,7 @@
 		margin: 25px;
 	}
 	.top-nav a {
-		float: right;
+		float: none;
 	}
 	.top-nav a.main {
 		float: left;
