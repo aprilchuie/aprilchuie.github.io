@@ -94,6 +94,7 @@ h2 {
 }
 #scrollTop {
 	display: block;
+	float: none;
 	border: none;
 	outline: none;
 	font-family: Arial, Helvetica;
