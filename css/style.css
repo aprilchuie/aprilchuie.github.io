@@ -100,7 +100,7 @@ hr {
 .scrollTop {
 	display: inline-block;
 	float: none;
-	border: none;
+	border: 10px solid, go;
 	outline: none;
 	font-family: Arial, Helvetica;
 	font-size: 12 pt;
