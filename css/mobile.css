@@ -19,7 +19,7 @@
 		display: block;
 		float: right;
 	}
-	.top-nav a:not(:first-child) and a:not(:last-child){
+	.top-nav a {
 		display: none;
 	}
 	.top-nav.responsive {
