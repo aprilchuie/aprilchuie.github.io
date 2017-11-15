@@ -24,6 +24,11 @@ h2 {
 	text-decoration: none;
 }
 
+hr {
+	width: 50%;
+	color: #ddd;
+}
+
 #header {
 	width: 100%;
 	vertical-align: middle;
