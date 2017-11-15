@@ -1,5 +1,5 @@
 /* For tablet devices */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
 
 	#header {
 		height: 150px;
@@ -9,7 +9,7 @@
 	#header img {
 		height: 150px;
 		float: left;
-		vertical-align: text-top;
+		vertical-align: top;
 	}
 
 	.top-nav {
