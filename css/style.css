@@ -18,6 +18,11 @@ h1 {
 	font-weight: normal;
 	text-decoration: none;
 }
+h2 {
+	color: #fff;
+	font-weight: normal;
+	text-decoration: none;
+}
 
 #header {
 	width: 100%;
@@ -73,7 +78,10 @@ h1 {
 	padding: 25px;
 }
 .container:nth-of-type(even) {
-	background-color: #ccc;
+	background-color: #89aea4;
+}
+.container:nth-of-type(even) h1{
+	color: #494949;
 }
 
 #footer {
