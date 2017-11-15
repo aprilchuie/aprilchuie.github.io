@@ -3,7 +3,7 @@
 
 	#header {
 		margin: 0;
-		vertical-align: middle;
+		vertical-align: text-top;
 	}
 	#header img {
 		display: none!important;

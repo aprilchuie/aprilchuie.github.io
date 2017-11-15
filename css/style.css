@@ -97,7 +97,7 @@ hr {
 	margin: 0;
 	background-color: #fff;
 }
-#scrollTop {
+.scrollTop {
 	display: inline-block;
 	float: none;
 	border: none;
@@ -109,6 +109,6 @@ hr {
 	background-color: #fff;
 	text-align: center;
 }
-#scrollTop:hover {
+.scrollTop:hover {
 	color: #eee;
 }
