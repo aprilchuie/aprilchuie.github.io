@@ -20,7 +20,7 @@
 		float: right;
 	}
 	.top-nav a:not(:first-child) {
-		display: block;
+		display: none;
 	}
 	.top-nav.responsive {
 		position: relative;
