@@ -9,6 +9,7 @@
 	#header img {
 		height: 150px;
 		float: left;
+		vertical-align: text-top;
 	}
 
 	.top-nav {

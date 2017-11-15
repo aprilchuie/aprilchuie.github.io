@@ -33,7 +33,7 @@ h1 {
 }
 #header img {
 	object-fit: scale-down;
-	vertical-align: middle;
+	vertical-align: text-top;
 	padding: 25px;
 }
 
