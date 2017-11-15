@@ -108,6 +108,7 @@ hr {
 	color: #494949;
 	background-color: #fff;
 	text-align: center;
+	box-sizing: border-box;
 }
 .scrollTop:hover {
 	color: #eee;
