@@ -34,7 +34,8 @@ h1 {
 #header img {
 	object-fit: scale-down;
 	vertical-align: text-top;
-	padding: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 .top-nav {
