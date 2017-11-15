@@ -93,7 +93,7 @@ h2 {
 	background-color: #fff;
 }
 #scrollTop {
-	display: block;
+	display: inline-block;
 	float: none;
 	border: none;
 	outline: none;
