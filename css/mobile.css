@@ -13,6 +13,7 @@
 		margin: 25px;
 	}
 	.top-nav a.main {
+		display: block;
 		float: left;
 	}
 	.top-nav a.icon {
