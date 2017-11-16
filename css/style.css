@@ -105,6 +105,7 @@ hr {
 	width: 25%;
 	padding: 10px;
 	border: 0.5px solid #fff;
+	margin: 10px;
 }
 .work-container img {
 	object-fit: scale-down;
