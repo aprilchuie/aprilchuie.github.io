@@ -101,7 +101,7 @@ hr {
 	display: flex;
 	flex-wrap: wrap;
 }
-.work-container.thumb img{
+.work-container .thumb img{
 	width: 25%;
 	padding: 10px;
 	border: 0.5px solid #fff;
