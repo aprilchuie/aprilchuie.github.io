@@ -95,6 +95,7 @@ hr {
 	object-fit: scale-down;
 	border-radius: 50%;
 	padding: 25px;
+	box-shadow: 5px 5px 5px #aaa;
 }
 
 .work-container {
