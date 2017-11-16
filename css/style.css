@@ -101,10 +101,13 @@ hr {
 	display: flex;
 	flex-wrap: wrap;
 }
-#work img.thumb {
+.work-container .thumb {
 	width: 25%;
 	padding: 10px;
 	border: 1px solid #fff;
+}
+.work-container img {
+	object-fit: scale-down;
 }
 
 #footer {
