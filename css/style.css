@@ -90,6 +90,11 @@ hr {
 .container:nth-of-type(even) h1{
 	color: #494949;
 }
+#self-img {
+	width: 50%;
+	border-radius: 50%;
+	padding: 25px;
+}
 
 #footer {
 	position: relative;
