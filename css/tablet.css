@@ -14,11 +14,12 @@
 
 	.top-nav {
 		margin: 25px;
+	}
+	.top-nav a {
 		display: inline;
 		float: right;
 	}
-
-	a.main {
+	.top-nav a.main {
 		float: left;
 	}
 
