@@ -103,6 +103,7 @@ hr {
 }
 .work-container .thumb {
 	width: 25%;
+	height: 25%;
 	padding: 10px;
 	border: 1px solid #fff;
 }
