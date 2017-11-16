@@ -97,6 +97,10 @@ hr {
 	padding: 25px;
 }
 
+.work-container {
+	display: flex;
+	flex-wrap: wrap;
+}
 #work img.thumb {
 	width: 25%;
 	padding: 10px;
