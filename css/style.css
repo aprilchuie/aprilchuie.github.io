@@ -91,7 +91,7 @@ hr {
 }
 
 #self-img {
-	width: 50%;
+	width: 75%;
 	object-fit: scale-down;
 	border-radius: 50%;
 	padding: 25px;
@@ -103,7 +103,6 @@ hr {
 }
 .work-container .thumb {
 	width: 25%;
-	height: 25%;
 	padding: 10px;
 	border: 0.5px solid #fff;
 }
