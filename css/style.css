@@ -110,6 +110,10 @@ hr {
 	margin: 10px;
 	object-fit: scale-down;
 }
+.work-container .thumb img:hover {
+	opacity: 0.3;
+	filter:alpha(opacity=30);
+}
 
 #footer {
 	position: relative;
