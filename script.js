@@ -22,7 +22,7 @@ function showSlides(n) {
 	var i;
 	var slides = document.getElementsByClassName("work-images");
 	var captionText = document.getElementById("caption");
-	slides[n].style.display = "block";
+	slides[n-1].style.display = "block";
 	// for loop through slides to display none and insert into slides array
 	// slides[n].style.display = "block";
 	// captionText.innerHTML
