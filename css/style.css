@@ -125,6 +125,8 @@ hr {
 	height: 100%;
 	overflow: auto;
 	background-color: #000;
+	opacity: 0.6;
+	filter:alpha(opacity=60);
 	z-index: 1;
 	padding: 100px;
 }
