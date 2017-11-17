@@ -3,7 +3,8 @@
 
 	#header {
 		margin: 0;
-		vertical-align: middle;
+		margin-bottom: 0;
+		vertical-align: bottom;
 	}
 	#header img {
 		display: none!important;
