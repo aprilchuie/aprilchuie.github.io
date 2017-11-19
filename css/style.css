@@ -159,6 +159,7 @@ hr {
 	background-color: #000;
 	padding: 2px 16px;
 	color: #fff;
+	display: none;
 }
 
 #footer {
