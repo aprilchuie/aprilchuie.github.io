@@ -25,7 +25,7 @@ function showSlides(n) {
 	slides[n-1].style.display = "block";
 	// for loop through slides to display none and insert into slides array
 	// slides[n].style.display = "block";
-	// captionText.innerHTML
+	captionText.innerHTML = slides[n-1].alt;
 }
 
 function backToTop() {
