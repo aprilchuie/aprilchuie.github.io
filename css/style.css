@@ -152,6 +152,12 @@ hr {
 .work-images {
 	display: none;
 }
+.caption-container {
+	text-align: center;
+	background-color: #000;
+	padding: 2px 16px;
+	color: #fff;
+}
 
 #footer {
 	position: relative;
