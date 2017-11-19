@@ -136,6 +136,8 @@ hr {
 	margin: auto;
 	padding: 0;
 	max-width: 100%;
+	opacity: 1.0;
+	filter:alpha(opacity=100);
 }
 .close {
 	color: #fff;
