@@ -22,9 +22,10 @@ function showSlides(n) {
 	var i;
 	var slides = document.getElementsByClassName("work-images");
 	var captionText = document.getElementById("caption");
+	for(i=0; i<slides.length; i++) {
+		slides[i].style.display ="none";
+	}
 	slides[n-1].style.display = "block";
-	// for loop through slides to display none and insert into slides array
-	// slides[n].style.display = "block";
 	captionText.innerHTML = slides[n-1].alt;
 }
 
