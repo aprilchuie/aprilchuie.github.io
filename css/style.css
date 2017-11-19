@@ -125,10 +125,12 @@ hr {
 	height: 100%;
 	overflow: auto;
 	background-color: #000;
-	opacity: 0.6;
-	filter:alpha(opacity=60);
 	z-index: 1;
 	padding: 100px;
+}
+.modal:before {
+	opacity: 0.75;
+	filter:alpha(opacity=75);
 }
 .modal-content {
 	position: relative;
@@ -136,8 +138,6 @@ hr {
 	margin: auto;
 	padding: 0;
 	max-width: 100%;
-	opacity: 1.0;
-	filter:alpha(opacity=100);
 }
 .close {
 	color: #fff;
