@@ -108,8 +108,10 @@ hr {
 	padding: 10px;
 	border: 0.5px solid #fff;
 	margin: 10px;
-	object-fit: scale-down;
 	background-color: #fff;
+}
+.work-container .thumb img{
+	object-fit: scale-down;
 }
 .work-container .thumb img:hover {
 	opacity: 0.3;
