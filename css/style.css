@@ -103,15 +103,14 @@ hr {
 	display: flex;
 	flex-wrap: wrap;
 }
-.work-container .thumb{
+.work-container .thumb img{
 	width: 25%;
+	height: 25%;
 	padding: 10px;
 	border: 0.5px solid #fff;
 	margin: 10px;
 	background-color: #fff;
-}
-.work-container .thumb img{
-	object-fit: scale-down;
+	object-fit: contain;
 }
 .work-container .thumb img:hover {
 	opacity: 0.3;
@@ -155,6 +154,9 @@ hr {
 }
 .work-images {
 	display: none;
+}
+.work-images img {
+	object-fit: contain;
 }
 .caption-container {
 	text-align: center;
