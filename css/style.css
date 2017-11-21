@@ -134,7 +134,7 @@ hr {
 }
 .modal-content {
 	position: relative;
-	background-color: #494949;
+	background-color: #fefefe;
 	margin: auto;
 	padding: 0;
 	max-width: 100%;
@@ -153,6 +153,8 @@ hr {
 }
 .work-images {
 	display: none;
+	max-width: inherit;
+	object-fit: contain;
 }
 .work-images img {
 	max-width: inherit;
