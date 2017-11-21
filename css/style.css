@@ -155,6 +155,7 @@ hr {
 	display: none;
 }
 .work-images img {
+	max-width: inherit;
 	object-fit: contain;
 }
 .caption-container {
