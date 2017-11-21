@@ -136,7 +136,7 @@ hr {
 	position: relative;
 	background-color: #fefefe;
 	margin: auto;
-	padding: 0;
+	padding: 25px;
 	max-width: 100%;
 }
 .close {
