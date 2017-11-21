@@ -156,10 +156,6 @@ hr {
 	max-width: inherit;
 	object-fit: contain;
 }
-.work-images img {
-	max-width: inherit;
-	object-fit: contain;
-}
 .caption-container {
 	text-align: center;
 	background-color: #000;
