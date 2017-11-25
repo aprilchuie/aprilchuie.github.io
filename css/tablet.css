@@ -15,9 +15,10 @@
 
 	.top-nav {
 		margin: 25px;
+		vertical-align: middle;
 	}
 	.top-nav a {
-		display: inline-block;
+		display: inline;
 	}
 	.top-nav a.main {
 		float: left;
