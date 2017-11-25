@@ -17,8 +17,7 @@
 		margin: 25px;
 	}
 	.top-nav a {
-		display: inline;
-		float: right;
+		display: inline-block;
 	}
 	.top-nav a.main {
 		float: left;
