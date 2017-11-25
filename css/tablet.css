@@ -15,6 +15,9 @@
 
 	.top-nav {
 		margin: 25px;
+		padding: 0;
+		margin-right: 0;
+		border: 0;
 	}
 	.top-nav > .nav a {
 		display: inline-block;
