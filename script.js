@@ -21,12 +21,13 @@ showSlides(workImageIndex);
 function showSlides(n) {
 	var i;
 	var slides = document.getElementsByClassName("work-images");
+	var captionContainer = document.getElementsByClassName("caption-container");
 	var captionText = document.getElementById("caption");
 	for(i=0; i<slides.length; i++) {
 		slides[i].style.display ="none";
 	}
 	slides[n-1].style.display = "block";
-	captionText.style.display = "block";
+	captionContainer.style.display = "block";
 	captionText.innerHTML = slides[n-1].alt;
 }
 
