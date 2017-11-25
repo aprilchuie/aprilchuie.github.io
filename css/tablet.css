@@ -15,10 +15,12 @@
 
 	.top-nav {
 		margin: 25px;
-		float: right;
 	}
-	.top-nav a {
+	.top-nav > .nav a {
 		display: inline-block;
+	}
+	.top-nav > .nav {
+		float: right;
 	}
 	.top-nav a.main {
 		float: left;
