@@ -104,7 +104,8 @@ hr {
 	flex-wrap: wrap;
 }
 .work-container .thumb img{
-	width: 25%;
+	width: 150px;
+	height: 150px;
 	padding: 10px;
 	border: 0.5px solid #fff;
 	margin: 10px;
