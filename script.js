@@ -26,6 +26,7 @@ function showSlides(n) {
 		slides[i].style.display ="none";
 	}
 	slides[n-1].style.display = "block";
+	captionText.style.display = "block";
 	captionText.innerHTML = slides[n-1].alt;
 }
 
