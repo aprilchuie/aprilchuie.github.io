@@ -82,7 +82,7 @@ hr {
 .container {
 	background-color: #eee;
 	padding: 25px;
-	min-height: 100%;
+	min-height: 100vh;
 }
 .container:nth-of-type(even) {
 	background-color: #89aea4;
