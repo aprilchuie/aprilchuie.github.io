@@ -83,6 +83,7 @@ hr {
 	background-color: #eee;
 	padding: 25px;
 	min-height: 100vh;
+	display: flex;
 	align-content: center;
 }
 .container:nth-of-type(even) {
