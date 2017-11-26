@@ -29,7 +29,7 @@ function showSlides(n) {
 	slides[n-1].style.display = "block";
 	captionContainer.style.display = "block";
 	var slideCaption = slides[n-1].getElementsByTagName("img");
-	captionText.innerHTML = slideCaption.alt;
+	captionText.innerHTML = slideCaption[0].alt;
 }
 
 function backToTop() {
