@@ -28,7 +28,8 @@ function showSlides(n) {
 	}
 	slides[n-1].style.display = "block";
 	captionContainer.style.display = "block";
-	captionText.innerHTML = slides[n-1].alt;
+	var slideCaption = slides[n-1].getElementsByTagName("img");
+	captionText.innerHTML = slideCaption.alt;
 }
 
 function backToTop() {
