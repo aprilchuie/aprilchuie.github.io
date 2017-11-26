@@ -28,7 +28,7 @@ function showSlides(n) {
 	}
 	slides[n-1].style.display = "block";
 	captionContainer[0].style.display = "block";
-	var slideCaption = slides[n-1].getElementsByTagName("img");
+	// var slideCaption = slides[n-1].getElementsByTagName("img");
 	captionText.innerHTML = "Test Caption Text";
 }
 
