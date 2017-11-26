@@ -80,6 +80,8 @@ hr {
 	margin: 0;
 	display: flex;
 	flex-wrap: wrap;
+	align-content: center;
+	vertical-align: middle;
 }
 .container {
 	background-color: #eee;
