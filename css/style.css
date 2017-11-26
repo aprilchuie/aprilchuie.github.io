@@ -80,12 +80,12 @@ hr {
 	margin: 0;
 	display: flex;
 	flex-wrap: wrap;
+	align-content: center;
 }
 .container {
 	background-color: #eee;
 	padding: 25px;
 	min-height: 100vh;
-	vertical-align: center;
 }
 .container:nth-of-type(even) {
 	background-color: #89aea4;
