@@ -78,11 +78,14 @@ hr {
 	padding: 0;
 	border: 0;
 	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
 }
 .container {
 	background-color: #eee;
 	padding: 25px;
 	min-height: 100vh;
+	align-content: center;
 }
 .container:nth-of-type(even) {
 	background-color: #89aea4;
