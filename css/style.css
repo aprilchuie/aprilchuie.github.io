@@ -46,7 +46,6 @@ hr {
 	object-fit: scale-down;
 	vertical-align: text-top;
 	padding: 25px;
-
 }
 
 .top-nav {
@@ -78,10 +77,6 @@ hr {
 	padding: 0;
 	border: 0;
 	margin: 0;
-	display: flex;
-	flex-wrap: wrap;
-	align-content: center;
-	vertical-align: middle;
 }
 .container {
 	background-color: #eee;
