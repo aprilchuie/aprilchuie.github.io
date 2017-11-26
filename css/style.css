@@ -104,7 +104,7 @@ hr {
 .work-container {
 	display: flex;
 	flex-wrap: wrap;
-	align: center;
+	text-align: center;
 }
 .work-container .thumb img{
 	width: 150px;
