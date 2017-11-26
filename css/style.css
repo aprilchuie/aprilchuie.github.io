@@ -84,6 +84,7 @@ hr {
 	padding: 25px;
 	min-height: 100vh;
 	display: flex;
+	flex-wrap: wrap;
 	align-content: center;
 }
 .container:nth-of-type(even) {
