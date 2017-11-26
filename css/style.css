@@ -85,7 +85,7 @@ hr {
 	background-color: #eee;
 	padding: 25px;
 	min-height: 100vh;
-	align-content: center;
+	vertical-align: center;
 }
 .container:nth-of-type(even) {
 	background-color: #89aea4;
