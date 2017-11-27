@@ -131,7 +131,7 @@ hr {
 	overflow: auto;
 	background-color: #000;
 	z-index: 1;
-	padding: 100px;
+	padding: 50px;
 }
 .modal:before {
 	opacity: 0.75;
