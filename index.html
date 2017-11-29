@@ -19,16 +19,16 @@
 
 <body>
 
-<div id="header">
+<header>
 	<img src="./img/husky.png" alt="April Huie">
-	<div class="top-nav" id="topNav">
+	<nav class="top-nav">
 		<a href="https://aprilchuie.github.io/" class="main">April Huie</a>
 		<a href="#about">About</a>
 		<a href="#work">Work</a>
 		<a href="#contact">Contact</a>
 		<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="mobileNav()">&#9776;</a>
-	</div>
-</div>
+	</nav>
+</header>
 
 <div id="content">
 
@@ -44,6 +44,7 @@
 		<h1>Work</h1>
 
 		<h2>Illustrations</h2>
+		<p>All illustrations were made using Adobe Illustrator.</p>
 		<div class="work-container">
 			<div class="thumb">
 				<img src="./work/illustrations/husky.png" alt="Husky Illustration Thumbnail" onclick="openModal();currentImg(1)">
@@ -56,7 +57,7 @@
 
 				<div class="modal-content">
 					<div class="work-images">
-						<img src="./work/illustrations/husky.png" alt="Husky Illustration, made with Adobe Illustrator">
+						<img src="./work/illustrations/husky.png" alt="Husky Illustration">
 					</div>
 					<div class="work-images">
 						<img src="./work/illustrations/shiba.png" alt="Shiba Illustration">
@@ -74,11 +75,29 @@
 
 		<hr>
 
-		<!--- <h2>Graphics</h2>
-		<p>Graphics go here.</p>
+		<h2>Graphics</h2>
+		<p>Graphics were made using Adobe Photoshop.</p>
+		<div class="work-container">
+			<div class="thumb">
+				<img src="" alt="Common Ground Dance Team Workshop Flyer" onclick="openModal();currentImg(1)">
+			</div>
+
+			<div id="graphicModal" class="modal">
+				<span class="close" onclick="closeModal()">&times;</span>
+
+				<div class="modal-content">
+					<div class="work-images">
+						<img src="" alt="Common Ground Dance Team Workshop Flyer">
+					</div>
+
+					<!-- include caption container here -->
+				</div>
+			</div>
+		</div>
+
 
 		<hr>
-
+		<!--
 		<h2>UI Mock Ups</h2>
 		<p>UI Mock Ups go here.</p> -->
 	</div>
@@ -91,10 +110,10 @@
 
 </div>
 
-<div id="footer">
+<footer>
 	<p>&copy; April Huie 2017 <br>
 		<button onclick="backToTop()" id="scrollTop" class ="scrollTop" title="Back to Top">Back to Top</button></p>
-</div>
+</footer>
 
 </body>
 </html>

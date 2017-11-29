@@ -29,7 +29,7 @@ hr {
 	border: 0.5px solid #000;
 }
 
-#header {
+header {
 	width: 100%;
 	vertical-align: middle;
 	margin: 0;
@@ -173,7 +173,7 @@ hr {
 	display: none;
 }
 
-#footer {
+footer {
 	position: relative;
 	width: 100%;
 	padding: 15px;
