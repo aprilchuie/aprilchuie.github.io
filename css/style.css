@@ -42,7 +42,7 @@ header {
 	box-shadow: 0px 5px 5px #aaa;
 
 }
-header img {
+header > img {
 	object-fit: scale-down;
 	vertical-align: text-top;
 	padding: 25px;
