@@ -97,10 +97,10 @@ header > img {
 }
 .container:nth-of-type(even) {
 	background-color: #494949;
-	color: #fff;
+	color: #efefef;
 }
 .container:nth-of-type(even) h1{
-	color: #494949;
+	color: #efefef;
 }
 
 #self-img {
