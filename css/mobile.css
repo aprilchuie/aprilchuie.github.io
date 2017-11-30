@@ -1,6 +1,10 @@
 /* For mobile and smartphone devices */
 @media only screen and (max-width: 600px) {
 
+	h1, h2 {
+		font-size: 0.75rem;
+	}
+	
 	header {
 		margin: 0;
 		margin-bottom: 0;
