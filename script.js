@@ -1,5 +1,5 @@
 function mobileNav() {
-    var x = document.getElementByTagName("nav");
+    var x = document.getElementsByTagName("nav");
     if (x.className === "top-nav") {
         x.className += " responsive";
     } else {
