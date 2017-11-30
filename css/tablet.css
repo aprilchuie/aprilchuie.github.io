@@ -15,7 +15,7 @@
 
 	.top-nav {
 		margin: 25px;
-		vertical-align: baseline;
+		vertical-align: text-bottom;
 	}
 	.top-nav a {
 		display: inline;
