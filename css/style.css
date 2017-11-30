@@ -23,7 +23,7 @@ a:hover {
 }
 
 h1 {
-	color: #89aea4;
+	color: #e490ff;
 	font-weight: normal;
 	text-decoration: none;
 }
@@ -45,7 +45,7 @@ header {
 	margin-bottom: 5px;
 	padding: 0;
 	border: 0;
-	background-color: #FFFFFF;
+	background-color: #fff;
 	-moz-box-shadow: 0px 5px 5px #aaa;
 	-webkit-box-shadow: 0px 5px 5px #aaa;
 	box-shadow: 0px 5px 5px #aaa;
@@ -95,7 +95,8 @@ header > img {
 	vertical-align: middle;
 }
 .container:nth-of-type(even) {
-	background-color: #89aea4;
+	background-color: #494949;
+	color: #fff;
 }
 .container:nth-of-type(even) h1{
 	color: #494949;
