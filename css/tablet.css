@@ -1,12 +1,12 @@
 /* For tablet devices */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
 
-	#header {
+	header {
 		height: 150px;
 		vertical-align: bottom;
 	}
 
-	#header img {
+	header > img {
 		height: 150px;
 		float: left;
 		vertical-align: top;
