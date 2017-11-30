@@ -3,6 +3,7 @@
 
 	header {
 		height: 100vh;
+		vertical-align: middle;
 	}
 	header > img {
 		height: 250px;
