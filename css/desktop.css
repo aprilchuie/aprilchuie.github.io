@@ -4,9 +4,10 @@
 	h2 {
 		letter-spacing: 1.5em;
 	}
-	
+
 	header {
 		height: 100vh;
+		display: table-cell;
 		vertical-align: middle;
 	}
 	header > img {
