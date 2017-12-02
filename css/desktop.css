@@ -7,8 +7,7 @@
 
 	header {
 		height: 100vh;
-		align-items: center;
-		vertical-align: middle;
+		
 	}
 	header > img {
 		height: 250px;
