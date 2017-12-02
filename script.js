@@ -8,10 +8,18 @@ function mobileNav() {
 }
 
 function openModal(modalName) {
-	document.getElementById(modalName).style.display="block";
+	if (modalName == "projectsModal") {
+		document.getElementById("projectsModal").style.display="block";
+	} else if (modalName == "illustrationModal") {
+		document.getElementById("illustrationModal").style.display="block";
+	}
 }
 function closeModal(modalName) {
-	document.getElementById(modalName).style.display="none";
+	if (modalName == "projectsModal") {
+		document.getElementById("projectsModal").style.display="none";
+	} else if (modalName == "illustrationModal") {
+		document.getElementById(modalName).style.display="none";
+	}
 }
 function currentImg(n) {
 	showSlides(slideIndex = n);
