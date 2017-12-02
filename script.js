@@ -7,11 +7,11 @@ function mobileNav() {
     }
 }
 
-function openModal() {
-	document.getElementById('illustrationModal').style.display="block";
+function openModal(modalName) {
+	document.getElementById(modalName).style.display="block";
 }
 function closeModal() {
-	document.getElementById('illustrationModal').style.display="none";
+	document.getElementById(modalName).style.display="none";
 }
 function currentImg(n) {
 	showSlides(slideIndex = n);
