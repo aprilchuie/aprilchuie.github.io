@@ -1,9 +1,6 @@
 /* For mobile and smartphone devices */
 @media only screen and (max-width: 600px) {
 
-	h2 {
-		letter-spacing: 0.5em;
-	}
 
 	header {
 		margin: 0;
