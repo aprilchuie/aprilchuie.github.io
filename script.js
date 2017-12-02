@@ -7,19 +7,17 @@ function mobileNav() {
     }
 }
 
-function openModal(modalName) {
-	if (modalName == "projectsModal") {
-		document.getElementById("projectsModal").style.display="block";
-	} else if (modalName == "illustrationModal") {
-		document.getElementById("illustrationModal").style.display="block";
-	}
+function openModal() {
+	document.getElementById('illustrationModal').style.display="block";
 }
-function closeModal(modalName) {
-	if (modalName == "projectsModal") {
-		document.getElementById("projectsModal").style.display="none";
-	} else if (modalName == "illustrationModal") {
-		document.getElementById(modalName).style.display="none";
-	}
+function closeModal() {
+	document.getElementById('illustrationModal').style.display="none";
+}
+function openProjectsModal() {
+	document.getElementById('projectsModal').style.display="block";
+}
+function closeProjectsModal() {
+	document.getElementById('projectsModal').style.display="none";
 }
 function currentImg(n) {
 	showSlides(slideIndex = n);
