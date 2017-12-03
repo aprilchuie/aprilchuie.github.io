@@ -175,7 +175,7 @@ header > img {
 	max-width: inherit;
 	object-fit: contain;
 }
-.work-images img {
+.work-images img, iframe {
 	max-width: inherit;
 	object-fit: contain;
 }
