@@ -177,6 +177,7 @@ header > img {
 }
 .work-images img, iframe {
 	max-width: inherit;
+	max-height: inherit;
 	object-fit: contain;
 }
 .caption-container {
