@@ -140,7 +140,7 @@ header > img {
 	color: #494949;
 }
 .work-card img {
-	width: inherit;
+	width: 100%;
 	object-fit: contain;
 	padding: 10px;
 	border: 0;
