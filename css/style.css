@@ -141,6 +141,7 @@ header > img {
 }
 .work-card {
 	display: inline-block;
+	float: left;
 	background-color: #fff;
 	color: #494949;
 	margin: 10px;
