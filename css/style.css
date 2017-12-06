@@ -109,7 +109,7 @@ header > img {
 #self-img {
 	width: 50%;
 	height: 50%;
-	border-radius: 50%;
+	border-radius: 25%;
 	object-fit: contain;
 	display: block;
 	box-shadow: 5px 5px 5px #aaa;
@@ -138,6 +138,7 @@ header > img {
 	display: inline-block;
 	background-color: #fff;
 	color: #494949;
+	margin: 10px;
 }
 .work-card img {
 	width: 100%;
