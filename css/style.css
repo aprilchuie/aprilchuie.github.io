@@ -110,10 +110,10 @@ header > img {
 #self-img {
 	width: 50%;
 	height: 50%;
-	border-radius: 25%;
+	border-radius: 50%;
 	margin: 0;
 	padding: 0;
-	object-fit: contain;
+	object-fit: cover;
 	display: block;
 	-moz-box-shadow: 5px 5px 5px #aaa;
 	-webkit-box-shadow: 5px 5px 5px #aaa;
