@@ -97,6 +97,7 @@ header > img {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-content: center;
 }
 .container:nth-of-type(even) {
 	background-color: #494949;
@@ -110,6 +111,8 @@ header > img {
 	width: 50%;
 	height: 50%;
 	border-radius: 25%;
+	margin: 0;
+	padding: 0;
 	object-fit: contain;
 	display: block;
 	box-shadow: 5px 5px 5px #aaa;
