@@ -108,7 +108,7 @@ header > img {
 
 #self-img {
 	width: 50%;
-	height: auto;
+	height: 50%;
 	border-radius: 50%;
 	object-fit: contain;
 	display: block;
