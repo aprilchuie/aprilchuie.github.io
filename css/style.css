@@ -137,8 +137,10 @@ header > img {
 .work-card {
 	display: inline-block;
 	background-color: #fff;
+	color: #494949;
 }
 .work-card img {
+	width: inherit;
 	object-fit: contain;
 	padding: 10px;
 	border: 0;
