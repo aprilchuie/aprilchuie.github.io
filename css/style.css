@@ -141,14 +141,15 @@ header > img {
 	filter:alpha(opacity=30);
 }
 .work-card {
-	min-width: 200px;
+	color:#494949;
+	text-align: left;
+	min-width: 300px;
 	display: inline-block;
 	float: left;
 	background-color: #fff;
-	color: #494949;
 	margin: 10px;
 	border: 0;
-	padding: 10px;
+	padding: 5px;
 	-moz-box-shadow: 3px 3px 3px #aaa;
 	-webkit-box-shadow: 3px 3px 3px #aaa;
 	box-shadow: 3px 3px 3px #aaa;
