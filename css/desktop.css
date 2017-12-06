@@ -23,7 +23,11 @@
 		padding-right: 20%;
 	}
 
+	#self-img {
+		max-width: 40%;
+	}
+
 	.work-card {
-		max-width: 45%;
+		max-width: 75%;
 	}
 }

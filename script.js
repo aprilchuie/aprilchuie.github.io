@@ -7,6 +7,11 @@ function mobileNav() {
     }
 }
 
+function showDescription(n) {
+	var descriptions = document.getElementsByClassName('work-card-description');
+	descriptions[n-1].style.display = "run-in";
+}
+
 function openModal() {
 	document.getElementById('illustrationModal').style.display="block";
 }
