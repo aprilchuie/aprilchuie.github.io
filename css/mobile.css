@@ -39,4 +39,8 @@
 		text-align: left;
 	}
 
+	.work-card {
+		max-width: 100%;
+	}
+
 }

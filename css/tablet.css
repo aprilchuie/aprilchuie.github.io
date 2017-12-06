@@ -29,4 +29,8 @@
 		padding-right: 15%;
 	}
 
+	.work-card {
+		max-width: 50%;
+	}
+
 }

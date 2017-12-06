@@ -134,6 +134,16 @@ header > img {
 	opacity: 0.3;
 	filter:alpha(opacity=30);
 }
+.work-card {
+	display: inline-block;
+	background-color: #fff;
+}
+.work-card img {
+	object-fit: contain;
+	padding: 10px;
+	border: 0;
+	margin: 0;
+}
 
 .modal {
 	display: none;
