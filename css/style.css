@@ -115,6 +115,8 @@ header > img {
 	padding: 0;
 	object-fit: contain;
 	display: block;
+	-moz-box-shadow: 5px 5px 5px #aaa;
+	-webkit-box-shadow: 5px 5px 5px #aaa;
 	box-shadow: 5px 5px 5px #aaa;
 }
 
@@ -142,6 +144,11 @@ header > img {
 	background-color: #fff;
 	color: #494949;
 	margin: 10px;
+	border: 0;
+	padding: 0;
+	-moz-box-shadow: 5px 5px 5px #aaa;
+	-webkit-box-shadow: 5px 5px 5px #aaa;
+	box-shadow: 5px 5px 5px #aaa;
 }
 .work-card img {
 	width: 100%;
