@@ -1,7 +1,7 @@
 .user-research-container, .user-testing-container {
 	display: block;
 }
-.user-research-container > img {
+#user-research > div > img {
 	float: right;
 	width: 50%;
 	object-fit: cover;
