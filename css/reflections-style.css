@@ -1,7 +1,16 @@
-#user-research img {
-	float: right;
+.user-research-container, .user-testing-container {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: middle;
 }
-
-#user-testing  img{
+.user-research-container > img {
+	float: right;
+	width: 50%;
+	object-fit: cover;
+}
+.user-testing-container >  img{
 	float: left;
+	width: 50%;
+	object-fit: cover;
 }
