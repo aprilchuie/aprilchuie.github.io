@@ -116,6 +116,9 @@ header > img {
 	background-color: #2a2e31;
 	color: #969696;
 }
+.container:nth-of-type(even) i {
+	color: #969696;
+}
 .container:nth-of-type(even) h1{
 	color: #efefef;
 }
