@@ -16,3 +16,10 @@ a img {
 section > p {
 	text-align: left;
 }
+
+#user-tests {
+	width: 100%;
+}
+#user-tests a img {
+	width: 50%;
+}
