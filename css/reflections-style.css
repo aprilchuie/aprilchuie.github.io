@@ -9,16 +9,3 @@ a img {
 section > p {
 	text-align: left;
 }
-
-@media only screen and (max-width: 600px) {
-	#user-research > section, #user-testing section {
-		width: 100%;
-		padding: 10px;
-	}
-
-	a img {
-		width: 100%;
-		object-fit: cover;
-		padding: 10px;
-	}
-}
