@@ -22,10 +22,12 @@
 		vertical-align: text-bottom;
 	}
 	.top-nav a {
-		display: inline;
+		display: block;
+		float: left;
 	}
 	.top-nav a.main {
-		float: left;
+		display: block;
+		text-align: left;
 	}
 
 	.container {
