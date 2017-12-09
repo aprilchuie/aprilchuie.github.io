@@ -6,12 +6,6 @@ a img {
 	object-fit: cover;
 	padding: 10px;
 }
-#user-research > section img {
-	float: right;
-}
-#user-testing > section  img{
-	float: left;
-}
 section > p {
 	text-align: left;
 }
