@@ -1,4 +1,6 @@
-
+#user-research, #user-testing {
+	flex-wrap: wrap;
+}
 #user-research > section, #user-testing > section {
 	padding: 10px;
 	width: 50%;
