@@ -1,16 +1,16 @@
-#user-research > section {
+#user-research > section, #user-testing > section {
+	padding: 10px;
+}
+section img {
+	width: 50%;
+	object-fit: cover;
 	padding: 10px;
 }
 #user-research > section img {
 	float: right;
-	width: 50%;
-	object-fit: cover;
-	padding: 10px;
 }
-.user-testing-container >  img{
+#user-testing > section  img{
 	float: left;
-	width: 50%;
-	object-fit: cover;
 }
 section > p {
 	text-align: left;
