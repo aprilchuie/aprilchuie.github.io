@@ -1,7 +1,7 @@
 #user-research > section {
 	padding: 10px;
 }
-#user-research > div img {
+#user-research > section img {
 	float: right;
 	width: 50%;
 	object-fit: cover;
