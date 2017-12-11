@@ -185,6 +185,9 @@ header > img {
 .work-card-description {
 	display: block;
 }
+.work-card-description h3 {
+	color: #000;
+}
 
 .modal {
 	display: none;
