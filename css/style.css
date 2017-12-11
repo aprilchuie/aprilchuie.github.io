@@ -186,7 +186,7 @@ header > img {
 	display: block;
 }
 .work-card .work-card-description h3{
-	color: #000;
+	color: #000!important;
 }
 
 .modal {
