@@ -80,6 +80,7 @@ header > img {
 .top-nav a{
 	color: #000000;
 	font-size: 14pt;
+	line-height: 1.25;
 	text-transform: uppercase;
 	text-decoration: none;
 	display: block;
@@ -92,6 +93,7 @@ header > img {
 .top-nav a.main {
 	font-size: 24pt;
 	float: none;
+	letter-spacing: 0.05em;
 }
 
 #content {
