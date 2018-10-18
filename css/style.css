@@ -81,7 +81,7 @@ header > img {
 	color: #000000;
 	font-size: 14pt;
 	line-height: 1.25;
-	text-transform: lowercase;
+	text-transform: uppercase;
 	text-decoration: none;
 	display: block;
 	padding: 10px 10px;
