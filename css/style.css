@@ -239,9 +239,9 @@ header > img {
 }
 .caption-container {
 	text-align: center;
-	background-color: #000;
+	background-color: #f7f7f7;
 	padding: 2px 16px;
-	color: #fff;
+	color: #2a2e31;
 	display: none;
 }
 
