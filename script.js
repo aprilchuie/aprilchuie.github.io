@@ -43,6 +43,15 @@ function showSlides(n) {
 	captionText.innerHTML = slideCaption[0].alt;
 }
 
+function hideShowAshandrewsayido2018() {
+    var x = document.getElementById("ashandrewsayido2018-gallery");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
 function backToTop() {
 	document.body.scrollTop = 0;
 	document.documentElement.scrollTop = 0;
