@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>April Huie</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
+
+
+	<link rel="stylesheet" type="text/css" href="./css/test-style.css" />
+	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 600px)" href="./css/mobile.css" />
+	<link rel="stylesheet" type="text/css" media="only screen and (min-width: 601px) and (max-width: 1023px)" href="./css/tablet.css" />
+	<link rel="stylesheet" type="text/css" media="only screen and (min-width: 1024px)" href="./css/desktop.css" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Creative Portfolio">
+	<meta name="keywords" content="Designer, UX, UI, Graphic">
+	<meta name="author" content="April Huie">
+
+	<script src="test-script.js"></script>
+</head>
+
+<body>
+
+<header>
+	<img src="./img/dog-brand05.png" alt="April Huie">
+	<nav class="top-nav" id="topNav">
+		<i style="display:block;">Visual Designer</i>
+		<a href="https://aprilchuie.github.io/" class="main">April Huie</a>
+		<a href="#about">About</a>
+		<a href="#work">Work</a>
+		<a href="#contact">Contact</a>
+		<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="mobileNav()">&#9776;</a>
+	</nav>
+</header>
+
+<div id="content">
+
+	<div class="container" id="about">
+		<center><img src="./img/april_xiyearphotoshoot2close_square.jpg" alt="April Huie" id="self-img"></center>
+		<h1>Lover of dogs and japanese stationery</h1>
+		<p>I am a visual designer with a focus on UX/UI and graphic design, based in the San Francisco Bay Area. I create with the love of helping others and making a positive impact. I admire dogs for their loyalty, compassion, and support; thus I design so as to satisfy stakeholders, empathize with users, and provide effective and efficient experiences.</p>
+		<p>When offline, I am most likely to be found exploring a city, drooling over chocolate chip cookies, or expressing myself through movement and wiggles, otherwise known as dance, during odd hours of the night/morning/day. Eep.</p>
+	</div>
+
+	<a name="#work"></a>
+	<div class="container" id="work">
+		<h1>Work</h1>
+
+		<p>Note: OPEN DURING CONSTRUCTION<br><i>Please bare with me while I revamp this section. Thank you!</i></p>
+
+		<h2>Projects</h2>
+		<div class="work-container">
+			<div class="work-card" id="hippo-time">
+				<img src="./work/thumbs/hippo-time-thumb.png" alt="Hippo Time Thumbnail" onclick="showDescription(1)">
+				<div class="work-card-description">
+					<h3>Hippo Time</h3>
+					<p>Worked with a team of undergraduate students and faculty from the University of California, Irvine to integrate biofeedback into a video game, to teach children with autism spectrum disorder proper deep breathing techniques to deal with everyday stressors.</p>
+					<p>As a <i>student programmer</i>, I helped program individual scenes in Unity to incorporate in the Hippo Time game. I also took part in recording and keeping track of progress made on the video game using Bitbucket and TeamGantt.</p>
+				</div>
+			</div>
+
+			<div class="work-card" id="chrs-brochure">
+				<img src="./work/thumbs/chrs-brochure-thumb.png" alt="CHRS Brochure Thumbnail">
+				<div class="work-card-description">
+					<h3>CHRS Brochure</h3>
+					<p>As a <i>graphic designer</i> for the Center for Hydrometeorology and Remote Sensing at the University of California, Irvine, I helped to design graphics and visual layouts for the department brochure.</p>
+					<p>A preview of the department brochure may be found <a href="https://online.flippingbook.com/view/451394/" alt="CHRS Brochure" target="_new">here</a>.</p>
+				</div>
+			</div>
+
+			<!-- <div class="thumb">
+				<img src="./work/projects/CHRS_brochure.pdf" alt="CHRS Brochure Thumbnail" onclick="openProjectsModal();currentImg(1)">
+			</div>
+
+			<div id="projectsModal" class="modal">
+				<span class="close" onclick="closeProjectsModal()">&times;</span>
+
+				<div class="modal-content">
+					<div class="work-images">
+						<iframe src="./work/projects/CHRS_brochure.pdf" alt="Center for Hydrometerology and Remote Sensing Brochure"></iframe>
+					</div>
+				</div>
+			</div> -->
+
+			<div class="work-card" id="ics-website">
+				<img src="./work/thumbs/ics-website-thumb.png" alt="ICS Website Redesign Thumbnail">
+				<div class="work-card-description">
+					<h3>ICS Website Redesign</h3>
+					<p>Worked to redesign the website for the University of California, Irvine Donald Bren School of Information and Computer Sciences with a small team of undergraduate students as well as the Director of Communications for the school. Particpated in agile sprints to elicit requirements, produce personas and scenarios, create low- and high-fidelity mockups, and generate a live working prototype. The main goal was to create an updated and modern design as well as to move the website onto WordPress.</p>
+				</div>
+			</div>
+		</div>
+
+		<h2>Illustrations</h2>
+		<div class="work-container">
+			<div class="thumb">
+				<img src="./work/illustrations/husky.png" alt="Husky Illustration Thumbnail" onclick="openModal();currentImg(1)">
+				<img src="./work/illustrations/shiba.png" alt="Shiba Illustration Thumbnail" onclick="openModal();currentImg(2)">
+				<img src="./work/illustrations/corgi.png" alt="Corgi Illustration Thumbnail" onclick="openModal();currentImg(3)">
+			</div>
+
+			<div id="illustrationModal" class="modal">
+				<span class="close" onclick="closeModal()">&times;</span>
+
+				<div class="modal-content">
+					<div class="work-images">
+						<img src="./work/illustrations/husky.png" alt="Husky Illustration">
+					</div>
+					<div class="work-images">
+						<img src="./work/illustrations/shiba.png" alt="Shiba Illustration">
+					</div>
+					<div class="work-images">
+						<img src="./work/illustrations/corgi.png" alt="Corgi Illustration">
+					</div>
+				</div>
+
+				<div class="caption-container">
+					<p id="caption"></p>
+				</div>
+			</div>
+		</div>
+
+		<h2>Other Creative Projets</h2>
+		<a href="#" onclick="hideShow('ashandrewsayido2018-gallery')">Ashley and Andrew Wedding Suite</a>
+		<div id="ashandrewsayido2018-gallery">test test test</div>
+
+<!-- 
+		<h2>Other Creative Projects</h2>
+		<div class="work-container">
+			<div class="work-card" id="ashandrewsayido2018">
+				<div class="work-card-description">
+					<h3>Ashley and Andrew Wedding Suite</h3>
+					<p>Wedding suite can be viewed <a href="./work/creative/ashandrewsayido2018/index.html" target="_blank">here</a>.</p><button onClick="hideShowAshandrewsayido2018()">here</button>.</p>
+					<iframe src="./work/creative/ashandrewsayido2018/index.html" id="ashandrewsayido2018-gallery"></iframe> 
+				</div>
+			</div>
+		</div>
+-->
+
+		<!--<hr>
+
+		<h2>Graphics</h2>
+		<p>Graphics were made using Adobe Photoshop.</p>
+		<div class="work-container">
+			<div class="thumb">
+				<img src="" alt="Common Ground Dance Team Workshop Flyer" onclick="openModal();currentImg(1)">
+			</div>
+
+			<div id="graphicModal" class="modal">
+				<span class="close" onclick="closeModal()">&times;</span>
+
+				<div class="modal-content">
+					<div class="work-images">
+						<img src="" alt="Common Ground Dance Team Workshop Flyer">
+					</div>
+
+					include caption container here
+				</div>
+			</div>
+		</div>
+	-->
+
+
+		
+		<!--
+		<h2>UI Mock Ups</h2>
+		<p>UI Mock Ups go here.</p> -->
+	</div>
+
+	<a name="#contact"></a>
+	<div class="container" id="contact">
+		<h1>Let's talk!</h1>
+		<p>Any questions, comments, or concerns? Maybe a problem to solve? Wanna collaborate or grab a coffee? Or even just say hi? Shoot me an email at <a href="mailto:aprilchuie@gmail.com" target="_top">aprilchuie (at) gmail (dot) com</a></p>
+	</div>
+
+</div>
+
+<footer>
+	<p>&copy; April Huie 2018 <br>
+		<button onclick="backToTop()" id="scrollTop" class ="scrollTop" title="Back to Top">Back to Top</button></p>
+</footer>
+
+</body>
+</html>

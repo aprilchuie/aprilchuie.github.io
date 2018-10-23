@@ -1,0 +1,277 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	color: #2a2e31;
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	line-height: 1.5;
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+i {
+	color: #000;
+}
+
+a, a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #494949;
+	text-decoration: none;
+}
+
+h1 {
+	color: #a27baf;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.25em;
+}
+h2 {
+	color: #494949;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+}
+h3 {
+	color: #000;
+	text-align: center;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+hr {
+	width: 75%;
+	border: 0.5px solid #000;
+}
+
+header {
+	width: 100%;
+	vertical-align: text-bottom;
+	margin: 0;
+	margin-bottom: 5px;
+	padding: 0;
+	border: 0;
+	background-color: #fff;
+	-moz-box-shadow: 0px 5px 5px #aaa;
+	-webkit-box-shadow: 0px 5px 5px #aaa;
+	box-shadow: 0px 5px 5px #aaa;
+}
+header > img {
+	object-fit: scale-down;
+	vertical-align: text-top;
+	padding: 25px;
+}
+
+.top-nav {
+	overflow: hidden;
+}
+.top-nav .icon {
+	display: none;
+}
+.top-nav a{
+	color: #000000;
+	font-size: 14pt;
+	line-height: 1.25;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	padding: 10px 10px;
+	float: none;
+}
+.top-nav a:hover {
+	color: #777777;
+}
+.top-nav a.main {
+	font-size: 24pt;
+	float: none;
+	letter-spacing: 0.05em;
+	line-height: 1.0;
+}
+
+#content {
+	position: relative;
+	width: 100%;
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+.container {
+	background-color: #eee;
+	padding: 5%;
+	border: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+.container:nth-of-type(even) {
+	background-color: #2a2e31;
+	color: #969696;
+}
+.container:nth-of-type(even) i {
+	color: #969696;
+}
+.container:nth-of-type(even) h1 {
+	color: #efefef;
+}
+.container:nth-of-type(even) h2 {
+	color: #a27baf;
+}
+.container:nth-of-type(even) h3 {
+	color: #fff;
+}
+
+#self-img {
+	width: 50%;
+	height: 50%;
+	border-radius: 50%;
+	margin: 0;
+	padding: 0;
+	object-fit: cover;
+	-moz-box-shadow: 5px 5px 5px #aaa;
+	-webkit-box-shadow: 5px 5px 5px #aaa;
+	box-shadow: 5px 5px 5px #aaa;
+	align-content: center;
+}
+
+.work-container {
+	padding: 2%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+	justify-content: space-around;
+}
+.work-container .thumb img{
+	width: 150px;
+	height: 150px;
+	padding: 10px;
+	border: 0.5px solid #fff;
+	margin: 10px;
+	background-color: #fff;
+	object-fit: contain;
+}
+.work-container .thumb img:hover {
+	opacity: 0.3;
+	filter:alpha(opacity=30);
+}
+.work-card {
+	color:#494949;
+	text-align: left;
+	min-width: 300px;
+	display: inline-block;
+	background-color: #fff;
+	margin: 10px;
+	border: 0;
+	padding: 10px;
+}
+.work-card img {
+	width: 50%;
+	float: left;
+	object-fit: contain;
+	padding: 0;
+	padding-right: 10px;
+	border: 0;
+	margin: 0;
+}
+.work-card-description {
+	display: block;
+}
+.work-card .work-card-description h3{
+	color: #000!important;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: #f7f7f7;
+	z-index: 1;
+	padding: 50px;
+}
+.modal:before {
+	opacity: 0.75;
+	filter:alpha(opacity=75);
+}
+.modal-content {
+	position: relative;
+	background-color: #f7f7f7;
+	margin: auto;
+	padding: 25px;
+	max-width: 100%;
+	max-height: 100%;
+}
+.close {
+	color: #2a2e31;
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	font-size: 18pt;
+	font-weight: bold;
+}
+.close:hover {
+	color: #aaa;
+	text-decoration: none;
+}
+.work-images {
+	display: none;
+	max-width: inherit;
+	object-fit: contain;
+}
+.work-images img, iframe {
+	max-width: inherit;
+	max-height: inherit;
+	object-fit: contain;
+}
+.caption-container {
+	text-align: center;
+	background-color: #f7f7f7;
+	padding: 2px 16px;
+	color: #2a2e31;
+	display: none;
+}
+
+#ashandrewsayido2018-gallery {
+	width: 100%;
+	display: none;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	padding: 15px;
+	border: 0;
+	margin: 0;
+	background-color: #fff;
+}
+#scrollTop {
+	display: inline-block;
+	float: none;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #494949;
+	background-color: #fff;
+	text-align: center;
+}
+#scrollTop:hover {
+	color: #eee;
+}
