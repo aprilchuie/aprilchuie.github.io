@@ -251,7 +251,7 @@ header > img {
 	object-fit: contain;
 }
 #ashandrewsayido2018-gallery img{
-	max-width: inherit;
+	max-width: 50%;
 	object-fit: contain;
 }
 
