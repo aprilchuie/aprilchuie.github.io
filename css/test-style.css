@@ -249,6 +249,10 @@ header > img {
 	width: 100%;
 	display: none;
 }
+#ashandrewsayido2018-gallery img{
+	max-width: inherit;
+	object-fit: contain;
+}
 
 footer {
 	position: relative;
