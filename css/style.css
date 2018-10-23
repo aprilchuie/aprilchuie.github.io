@@ -185,7 +185,7 @@ header > img {
 	margin: 0;
 }
 .work-card-description {
-	display: block;
+	display: none;
 }
 .work-card .work-card-description h3{
 	color: #000!important;
