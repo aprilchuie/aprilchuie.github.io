@@ -194,6 +194,15 @@ header > img {
 	color: #000!important;
 }
 
+#healthy-campus-website-more {
+	width: 100%;
+	display: none;
+	object-fit: contain;
+}
+#healthy-campus-website-more img {
+	max-width: 100%;
+	object-fit: contain;
+}
 #empethy {
 	width: 100%;
 	display: none;
