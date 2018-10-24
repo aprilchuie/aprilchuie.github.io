@@ -130,6 +130,9 @@ header > img {
 .container:nth-of-type(even) h3 {
 	color: #fff;
 }
+.container:nth-of-type(even) h3:hover {
+	color: #2a2e31;
+}
 
 #self-img {
 	width: 50%;
@@ -251,6 +254,15 @@ header > img {
 	object-fit: contain;
 }
 #ashandrewsayido2018-gallery img{
+	max-width: 100%;
+	object-fit: contain;
+}
+#cgflyers {
+	width: 100%;
+	display: none;
+	object-fit: contain;
+}
+#cgflyers img {
 	max-width: 100%;
 	object-fit: contain;
 }
