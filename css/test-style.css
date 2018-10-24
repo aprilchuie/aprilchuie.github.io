@@ -194,6 +194,25 @@ header > img {
 	color: #000!important;
 }
 
+#empethy {
+	width: 100%;
+	display: none;
+	object-fit: contain;
+}
+#empethy img{
+	max-width: 100%;
+	object-fit: contain;
+}
+#ICS-website-redesign-more {
+	width: 100%;
+	display: none;
+	object-fit: contain;
+}
+#ICS-website-redesign-more img {
+	max-width: 100%;
+	object-fit: contain;
+}
+
 .modal {
 	display: none;
 	position: fixed;
