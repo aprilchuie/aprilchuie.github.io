@@ -193,6 +193,11 @@ header > img {
 .work-card .work-card-description h3{
 	color: #000!important;
 }
+.work-card-description img {
+	max-width: 100%;
+	float: none;
+	object-fit: contain;
+}
 
 #healthy-campus-website-more {
 	width: 100%;
