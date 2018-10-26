@@ -209,12 +209,12 @@ header > img {
 	max-width: 100%;
 	object-fit: contain;
 }
-#empethy {
+#empethy-more {
 	width: 100%;
 	display: none;
 	object-fit: contain;
 }
-#empethy img{
+#empethy-more img{
 	max-width: 100%;
 	object-fit: contain;
 }
