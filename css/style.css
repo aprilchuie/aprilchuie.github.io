@@ -130,6 +130,9 @@ header > img {
 .container:nth-of-type(even) h3 {
 	color: #fff;
 }
+.container:nth-of-type(even) h3:hover {
+	color: #969696;
+}
 
 #self-img {
 	width: 50%;
@@ -190,6 +193,40 @@ header > img {
 .work-card .work-card-description h3{
 	color: #000!important;
 }
+.work-card-description img {
+	max-width: 100%;
+	float: none;
+	object-fit: contain;
+	align: center;
+}
+
+#healthy-campus-website-more {
+	width: 100%;
+	display: none;
+	object-fit: contain;
+}
+#healthy-campus-website-more img {
+	max-width: 100%;
+	object-fit: contain;
+}
+#empethy-more {
+	width: 100%;
+	display: none;
+	object-fit: contain;
+}
+#empethy-more img{
+	max-width: 100%;
+	object-fit: contain;
+}
+#ICS-website-redesign-more {
+	width: 100%;
+	display: none;
+	object-fit: contain;
+}
+#ICS-website-redesign-more img {
+	max-width: 100%;
+	object-fit: contain;
+}
 
 .modal {
 	display: none;
@@ -248,6 +285,20 @@ header > img {
 #ashandrewsayido2018-gallery {
 	width: 100%;
 	display: none;
+	object-fit: contain;
+}
+#ashandrewsayido2018-gallery img{
+	max-width: 100%;
+	object-fit: contain;
+}
+#cgflyers {
+	width: 100%;
+	display: none;
+	object-fit: contain;
+}
+#cgflyers img {
+	max-width: 100%;
+	object-fit: contain;
 }
 
 footer {

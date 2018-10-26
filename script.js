@@ -7,22 +7,11 @@ function mobileNav() {
     }
 }
 
-function showDescription(n) {
-	var descriptions = document.getElementsByClassName('work-card-description');
-	descriptions[n-1].style.display = "run-in";
-}
-
 function openModal() {
 	document.getElementById('illustrationModal').style.display="block";
 }
 function closeModal() {
 	document.getElementById('illustrationModal').style.display="none";
-}
-function openProjectsModal() {
-	document.getElementById('projectsModal').style.display="block";
-}
-function closeProjectsModal() {
-	document.getElementById('projectsModal').style.display="none";
 }
 function currentImg(n) {
 	showSlides(slideIndex = n);
