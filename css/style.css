@@ -24,6 +24,9 @@ a:hover {
 	color: #494949;
 	text-decoration: none;
 }
+.click:hover {
+	color: #eee;
+}
 
 h1 {
 	color: #a27baf;
