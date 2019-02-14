@@ -11,6 +11,7 @@ function openModal() {
 	document.getElementById('illustrationModal').style.display="block";
 }
 function closeModal() {
+	document.getElementById('illustrationModal').style.animation-name="fadeout";
 	document.getElementById('illustrationModal').style.display="none";
 }
 function currentImg(n) {
