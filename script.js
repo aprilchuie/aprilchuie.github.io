@@ -36,8 +36,10 @@ function hideShow(id) {
     var x = document.getElementById(id);
     if (x.style.display === "none") {
         x.style.display = "block";
+        x.style.width = "100%";
     } else {
         x.style.display = "none";
+        x.style.width = "0%";
     }
 }
 
