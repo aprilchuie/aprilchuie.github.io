@@ -246,6 +246,12 @@ header > img {
 	background-color: #f7f7f7;
 	z-index: 1;
 	padding: 50px;
+	animation-name: fadein;
+	animation-duration: 0.5s;
+}
+@keyframes fadein {
+	from {opacity: 0;}
+	to {opacity: 1;}
 }
 .modal:before {
 	opacity: 0.75;
@@ -258,12 +264,6 @@ header > img {
 	padding: 25px;
 	max-width: 100%;
 	max-height: 100%;
-	animation-name: fadein;
-	animation-duration: 0.3s;
-}
-@keyframes fadein {
-	from {opacity: 0;}
-	to {opacity: 1;}
 }
 .close {
 	color: #2a2e31;
