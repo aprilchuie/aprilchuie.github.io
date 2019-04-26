@@ -19,7 +19,7 @@ body {
 	background-size: contain;
 	background-position: right top;
 	background-attachment: fixed; */
-	background-image: url("../paper-rip-left.svg"), url("../paper-rip-right-redone-thinner.svg"), url("../bg-test.svg");
+	background-image: url("../paper-rip-left-redone.svg"), url("../paper-rip-right-redone-thinner.svg"), url("../bg-test.svg");
 	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-size: 100% auto, 100% auto, auto;
 	background-position: center, center, left top;
