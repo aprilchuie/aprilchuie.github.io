@@ -17,10 +17,13 @@ h1 {
 	text-transform: lowercase;
 }
 
-p {
-	width: 50%;
-	margin: auto;
-}
 p#signature {
 	font-weight: italic;
+}
+
+.container {
+	width: 50%;
+	padding: 0;
+	border: 0;
+	margin: auto;
 }
