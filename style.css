@@ -10,6 +10,11 @@ body {
 	margin: 0;
 }
 
+#bit-img {
+	width: 50%;
+	height: auto;
+}
+
 h1 {
 	color: #111111;
 	font-weight: normal;
