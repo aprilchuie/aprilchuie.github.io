@@ -16,3 +16,11 @@ h1 {
 	text-decoration: none;
 	text-transform: lowercase;
 }
+
+p {
+	width: 50%;
+	margin: auto;
+}
+p#signature {
+	font-weight: italic;
+}
